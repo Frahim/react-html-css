@@ -1,0 +1,20 @@
+.container {
+    height: 848px;
+    width: 316px;
+    top: 226px;
+    left: 512px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.Modal-body {
+    height: 348px;
+    width: 416px;
+    position: relative;
+}
+
+.modal-dialog {
+    height: 248px;
+    width: 316px;
+    margin: 20vh auto 0px auto;
+}

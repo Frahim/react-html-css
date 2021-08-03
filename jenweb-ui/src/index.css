@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family:'Avenir Next LT Pro', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src:url('./font/AvenirNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+
+img.logo {
+    display: block;
+    margin-bottom: 64px;
+    margin-top: 48px;
+}
+
+.fade.modal.show {
+    top: 25%;
+}

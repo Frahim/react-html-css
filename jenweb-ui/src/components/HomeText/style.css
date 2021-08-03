@@ -1,0 +1,139 @@
+.banerText {
+    text-align: left;
+    font-family: 'Avenir Next LT Pro';
+     padding-right: 100px;
+}
+
+h2.banerTtext {
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    color: #2C3659;    
+    padding-right: 61px;
+    font-family: 'DM Serif Display', serif !important;
+}
+h3.bannerMtext {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #2C3659;
+    margin: 32px 0;
+    padding-right:101px;
+}
+
+p.banerBtext {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 32px;
+    padding-right: 61px;
+    margin-bottom: 32px;
+}
+a.sign-up-button:hover {
+     color: rgb(214, 211, 211);
+}
+
+img.user {
+  margin-top: 84px;
+  display: block;
+  margin-left: 29px;
+}
+.firstBlock,.scondBlock,.thirdBlock {
+  border-radius: 16px;
+  text-align: left;
+  padding: 30px;
+  margin-top: -20px;
+  font-size: 17px;
+  color: #0D4048;
+}
+.firstBlock{
+  background: #F1FDFF;
+  box-shadow: 0px 32px 64px rgb(17 17 17 / 8%);
+}
+.scondBlock{
+  background: #FDE9B8;
+  box-shadow: 0px 32px 64px rgba(17, 17, 17, 0.08);
+}
+.thirdBlock{
+  background: #FAE7E0;
+  box-shadow: 0px 32px 64px rgba(17, 17, 17, 0.08);
+}
+.firstBlock p.userName {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #60CECE;
+  margin-bottom: 0;
+}
+.scondBlock p{
+  color: #573709;
+}
+.scondBlock p.userName{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color:#A58129;
+  margin-bottom: 0;
+}
+
+.thirdBlock p{
+  color: #371D22;
+}
+.thirdBlock p.userName{
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color:#C05A6F;
+  margin-bottom: 0;
+}
+.userRight{
+  margin-top: 28px;
+  display: block;
+  margin-left: auto;
+  margin-right: 29px;
+}
+.userBottom{
+  display: block;
+  margin-left: 29px;
+  margin-top: 28px;
+}
+.sign-up-button{
+ font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    background: linear-gradient(
+46.35deg
+, #5CA97B 14.48%, #82BB98 85.35%);
+    box-shadow: 0px 15px 15px rgb(130 187 152 / 20%);
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 24px;
+    height: 56px;
+    width: 100% !important;
+    max-width: 300px;
+    padding: 18px;
+}
+
+@media all and (min-width: 0px) and (max-width: 736px) {
+    .App-header{padding-bottom: 30px;}
+    .banerText { padding-right: 0;}
+    h2.banerTtext{padding: 0;font-size: 32px; line-height: 44px;}
+    h3.bannerMtext, p.banerBtext{padding: 0;}
+    h3.bannerMtext {font-size: 20px; line-height: 27px;}
+    p.banerBtext{    line-height: 28px;}
+    img.logo{margin-left: auto;  margin-right: auto;}
+    .loginLink{text-align: center;}
+    img.user { margin-top: 40px;}
+    .firstBlock, .scondBlock, .thirdBlock{padding: 30px 15px;font-size: 14px;}
+    .banerText{ margin-top: 30px;}
+    a.sign-up-button { max-width: 100% !important;}
+    .react-tel-input .form-control{max-width: 300px;}
+    h5.head5 {
+    text-align: center;
+}
+  }

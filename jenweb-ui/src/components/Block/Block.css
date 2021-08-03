@@ -1,0 +1,19 @@
+.Block {
+    width: 70%;
+    height: 100px;
+    padding: 35px;
+}
+  
+.Text-block {
+    width: 370px;
+    height: 145px;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: left;
+}
+  
+.pics {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}

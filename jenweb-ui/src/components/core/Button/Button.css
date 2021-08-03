@@ -1,0 +1,82 @@
+.sign-up-button {
+    width: 250px;
+    background-color: #3CB371;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block;
+}
+  
+.sign-up-button:hover {
+    background-color: #2E8B57;
+}
+
+.sign-up-button::after {
+  content: "\a";
+  white-space: pre;
+}
+
+.OtpButton {
+   background: linear-gradient(
+46.35deg
+, #5CA97B 14.48%, #82BB98 85.35%);
+    box-shadow: 0px 15px 15px rgb(130 187 152 / 20%);
+    border-radius: 4px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    padding: 17px 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 24px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 32px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 56px;
+    margin-bottom: 40px;
+}
+
+.OtpButton:hover {
+  background-color: #2E8B57;
+  color: #ffff;
+}
+
+.verify-button {
+    width: 350px;
+    align-items: center;
+    background-color: #3CB371;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.verify-button:hover {
+  background-color: #2E8B57;
+  color: #ffff
+}

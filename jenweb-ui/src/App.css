@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background: url(./static/elps1.png), url(./static/elps2.png), url(./static/elps3.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom, right top;
+  background-size: 18px, 1344, 1385px;
+  height: 100vh;
+}
+
+@media (max-width: 1280px) {
+  .App {
+    background-size: 328px, 40%, 50%;   
+  }
+  .App-logo {
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+    float: left;
+  }
+}
+
+.App-logo {
+  height: 70px;
+  pointer-events: none; 
+  margin-top: 48px;
+  margin-bottom: 64px;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main {
+  width: 100%;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.App-text {
+  max-width: 500px;
+}
+
+
+.right-div {
+  width: 50%;
+  float: right;
+}

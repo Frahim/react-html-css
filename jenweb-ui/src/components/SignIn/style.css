@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.sign-in-h1 {
+    color: #2C3659;
+    font-family: 'DM Serif Display',sans-serif;
+        font-weight: 800;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}  
+
+.sign-in-h3 {
+    color: #14142B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Avenir Next LT Pro', sans-serif !important;
+}
+
+.head3 {
+    color: #14142B;
+    font-family: 'Avenir',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+}
+
+.modal-header button.close {
+    background: #ffffff;
+    border: none;
+    font-size: 28px;
+    position: relative;
+    top: -20px;
+    width: 30px;
+    height: 25px;
+    line-height: 0;
+}
+.modal-header{
+    border: none !important;
+}
+.modal-content{max-width: 416px;min-height: 484px;}
+button.close span.sr-only{ display: none;}
+
+.react-tel-input{
+    text-align: center;
+    margin: auto;
+    max-width:100%;
+}
+.modal-header {
+    padding: 20px 31px !important;
+}
+.modal-body{
+    padding: 0 31px !important;
+    width: 100% !important;
+}
+.modal-body> h5.head5{
+    text-align: center;
+    margin-top: 0;
+}
+.modal-header button.close {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    right: 20px;
+}
+.react-tel-input .form-control{
+    min-height: 56px;
+    border-color: #14142B !important;
+    width: 100% !important;
+     font-size: 17px;
+    line-height: 24px;
+}
+.react-tel-input .flag-dropdown{
+    border-color: #14142B !important;
+    background-color:#fff;
+        border-right: none;
+}
+.react-tel-input .selected-flag{
+    min-width: 56px;
+    padding: 20px 16px;
+    font-size: 17px;
+    line-height: 24px;
+}
+.react-tel-input .selected-flag:after {
+    content: "";
+    border-right: 1px solid #000;
+    height: 32px;
+    width: 5px;
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
